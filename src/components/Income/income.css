@@ -1,0 +1,35 @@
+ 
+.income{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    background-color: hsla(0,0%,100%,.12);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.inc{
+    font-size: 20px;
+}
+.exp{
+    font-size: 20px;
+}
+.inc > span{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    /* padding-left: 20px; */
+}
+.exp >span{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.greens{
+    color: green;
+    font-size: 25px;
+}
+.reds{
+    color: red;
+    font-size: 25px;
+}

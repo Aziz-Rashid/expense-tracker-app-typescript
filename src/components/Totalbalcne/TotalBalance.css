@@ -1,0 +1,29 @@
+.total{
+    text-align: center;
+    background-color: hsla(0,0%,100%,.12);
+    padding: 20px;
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    /* border-radius: 15px; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.balance{
+    font-size: 30px;
+}
+.balance-total{
+    font-size: 25px;
+}
+.balance-total> span{
+    color: green;
+    font-size: 35px;
+}
+.balance-total2> span{
+    color: red;
+    font-size: 35px;
+}
