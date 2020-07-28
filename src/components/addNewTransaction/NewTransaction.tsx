@@ -7,7 +7,7 @@ export default function Addnewtransaction() {
     let { rem, addtransactions } = useContext(GlobalContext)
 
 
-    const submit = (e: any) => {
+    const submit = (e: React.FormEvent<EventTarget>) => {
         e.preventDefault()
 
     }
@@ -46,7 +46,7 @@ export default function Addnewtransaction() {
     return (
         <div className="header">
             <div>
-                <p className="transaction-historyy">Add new transactionsssss</p>
+                <p className="transaction-historyy">Add new transactions</p>
             </div>
             <form onSubmit={submit}>
                 <div>
